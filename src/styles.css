@@ -1,0 +1,85 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  /* border: black 1px solid; */
+  margin: 0;
+}
+.Body1 {
+  height: 30vh;
+  padding-top: 10vh;
+}
+.Body2 {
+  height: 59vh;
+}
+.Body2Child1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.Body2Child2 {
+  overflow-x: scroll;
+  display: flex;
+  flex-direction: row;
+}
+.Body2Child2 * {
+  margin-top: 5vh;
+  /* width: 50vw; */
+  background-color: lightgreen;
+}
+
+.Body1 * {
+  width: 70%;
+  font-size: 7vh;
+  text-align: start;
+  padding-left: 10%;
+}
+.Bottom {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* height: 7vh; */
+  bottom: 0;
+  left: 0;
+}
+.Bottom * {
+  /* padding: 1vh; */
+  height: 10vh;
+  /* display: inline; */
+}
+/* pg-2/////////////////////////////////////////// */
+.Home2Cr1 {
+  height: 50vh;
+  border-radius: 26px;
+  margin: 15px;
+}
+.Home2Cr2 {
+  height: 29vh;
+  border-radius: 26px;
+  margin-inline: 15px;
+}
+
+/* ///////pg-3/////////////////////////////////////// */
+.ImgUpl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  height: 100vh;
+  width: 100vw;
+  background-color: burlywood;
+}
+.ImgUpl h2 {
+  margin-top: 30vh;
+}
+.ImgUpl * {
+  margin: 0 auto;
+}
+.ImgUpl img {
+  max-width: 50vw;
+  max-height: 50vh;
+}
